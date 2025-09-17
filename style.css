@@ -1,0 +1,99 @@
+body{
+    margin: 0;
+    height: 504px;
+    background: linear-gradient(to bottom right, #FF4747 , #520030);
+}
+.container{
+    width: 900px;
+    margin: 60px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    border-radius: 10px;
+}
+.refresh-btn{
+    position: absolute;
+    top: 30px;
+    left: 400px;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    background: rgba(255,255,255,0.6);
+    display: block;
+    padding: 6px ;
+    text-align: center;
+    width: 130px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.dices{
+    width: 60px;
+    position: absolute;
+    top: 130px;
+    left: 420PX;
+    display: block;
+}
+.roll-btn{
+    position: absolute;
+    top: 295PX;
+    left: 400px;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    background: rgba(255,255,255,0.6);
+    display: block;
+}
+.Hold-btn{
+    position: absolute;
+    top: 350px;
+     left: 415px;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    background: rgba(255,255,255,0.6);
+    display: block;
+}
+.left{
+    background-color:#C893A3;
+    
+    text-align: center;
+    width: 450px;
+    height: 450px;
+
+}
+.right{
+    background-color: rgba(213,176,172, 0.6); 
+    text-align: center;
+    width: 450px;
+    height: 450px;
+}
+.current1{
+    position: absolute;
+    top: 300px;
+    left: 180px;
+     color: antiquewhite;
+    text-align: center;
+    background-color: #C81939;
+    border-radius: 10px;
+    width: 130px;
+}
+.current2{
+    color: antiquewhite;
+    position: absolute;
+    top: 300px;
+    right: 180px;
+    text-align: center;
+    background-color: #C81939;
+    border-radius: 10px;
+    width: 130px;
+}
+.title-l{
+    margin-top: 70px;
+}
+.title-r{
+    margin-top: 70px;
+}
+.score2 p{
+    color: #C81939;
+}
+.score1{}
